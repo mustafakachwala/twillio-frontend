@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths":{
+      "util":["node_modules/util"],
+      "@twilio/voice-sdk": ["node_modules/@twilio/voice-sdk"]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
